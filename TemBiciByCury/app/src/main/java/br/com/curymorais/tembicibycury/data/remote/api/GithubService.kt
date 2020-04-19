@@ -16,5 +16,6 @@ interface GithubService {
     @GET("search/repositories?q=language:Java&sort=stars")
     suspend fun getReposByPage(@Query ("page") page: Long): GitApiResponse
 
-// https://api.github.com/search/repositories?q=language:Java&sort=stars&page=1
+    @GET("repos/<criador>/<repositório>/pulls")
+    suspend fun getPullsFromRepo(@Query ("page") page: Long): GitApiResponse
 }

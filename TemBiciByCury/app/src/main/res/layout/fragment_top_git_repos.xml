@@ -44,7 +44,7 @@
                     android:textSize="40dp"
                     android:fontFamily="sans-serif-thin"
                     android:layout_marginRight="10dp"
-                    android:text="GIT Best Repos" />
+                    android:text="GITHUB" />
 
                 <TextView
                     android:id="@+id/text_total_value"
@@ -55,7 +55,7 @@
                     android:inputType="numberDecimal"
                     android:textStyle="bold"
                     android:textSize="40dp"
-                    android:text="Kotlin" />
+                    android:text="JavaPop" />
 
             </LinearLayout>
 
@@ -63,17 +63,5 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/list_top_git_repos"/>
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/button_fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
-        android:visibility="gone"
-        app:layout_anchor="@id/app_bar"
-        app:layout_anchorGravity="bottom|end"
-        android:tint="@color/icons"
-        app:srcCompat="@android:drawable/ic_input_add" />
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

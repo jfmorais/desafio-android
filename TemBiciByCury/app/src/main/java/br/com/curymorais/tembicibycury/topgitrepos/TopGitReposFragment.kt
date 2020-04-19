@@ -41,7 +41,6 @@ class TopGitReposFragment : Fragment(){
     fun initComponents() {
         adapter = TopGitReposFragmentAdapter()
         llm = LinearLayoutManager(activity)
-        button_fab.setOnClickListener{loadMoreData()}
 
         recycler_item_list.adapter = adapter
         recycler_item_list.layoutManager = llm
