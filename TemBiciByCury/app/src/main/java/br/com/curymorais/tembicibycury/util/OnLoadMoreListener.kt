@@ -1,4 +1,4 @@
-package com.curymorais.gittopreposbycury.util
+package br.com.curymorais.tembicibycury.util
 
 interface OnLoadMoreListener {
     fun onLoadMore()

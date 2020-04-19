@@ -1,12 +1,11 @@
-package com.curymorais.gittopreposbycury
+package br.com.curymorais.tembicibycury
 
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.curymorais.gittopreposbycury.data.local.GitRepo
-import com.curymorais.gittopreposbycury.data.local.GitRepoOwner
-import com.curymorais.gittopreposbycury.topgitrepos.TopGitReposFragment
+import br.com.curymorais.tembicibycury.data.local.GitRepoOwner
+import br.com.curymorais.tembicibycury.topgitrepos.TopGitReposFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.io.File
 

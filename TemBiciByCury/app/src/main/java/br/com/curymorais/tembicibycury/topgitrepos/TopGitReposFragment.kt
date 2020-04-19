@@ -1,9 +1,7 @@
-package com.curymorais.gittopreposbycury.topgitrepos
+package br.com.curymorais.tembicibycury.topgitrepos
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.os.Handler
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,10 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.curymorais.gittopreposbycury.R
-import com.curymorais.gittopreposbycury.util.OnLoadMoreListener
-import com.curymorais.gittopreposbycury.util.RecyclerViewLoadMoreScroll
+import br.com.curymorais.tembicibycury.R
+import br.com.curymorais.tembicibycury.util.OnLoadMoreListener
+import br.com.curymorais.tembicibycury.util.RecyclerViewLoadMoreScroll
 import kotlinx.android.synthetic.main.fragment_top_git_repos.*
 import kotlinx.android.synthetic.main.list_top_git_repos.*
 

@@ -1,4 +1,4 @@
-package com.curymorais.gittopreposbycury.data.local
+package br.com.curymorais.tembicibycury.data.local
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

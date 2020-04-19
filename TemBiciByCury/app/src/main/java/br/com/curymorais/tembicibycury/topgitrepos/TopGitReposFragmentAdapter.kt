@@ -1,16 +1,14 @@
-package com.curymorais.gittopreposbycury.topgitrepos
+package br.com.curymorais.tembicibycury.topgitrepos
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.curymorais.gittopreposbycury.R
-import com.curymorais.gittopreposbycury.data.local.GitRepo
+import br.com.curymorais.tembicibycury.R
+import br.com.curymorais.tembicibycury.data.local.GitRepo
 import com.squareup.picasso.Picasso
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.list_item_repo.*
-
 
 class TopGitReposFragmentAdapter : RecyclerView.Adapter<TopGitReposFragmentAdapter.ItemHolder>() {
 

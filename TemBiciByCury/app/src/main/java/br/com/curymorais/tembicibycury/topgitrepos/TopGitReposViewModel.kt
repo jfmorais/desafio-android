@@ -1,8 +1,8 @@
-package com.curymorais.gittopreposbycury.topgitrepos
+package br.com.curymorais.tembicibycury.topgitrepos
 
 import androidx.lifecycle.*
-import com.curymorais.gittopreposbycury.data.GitRepository
-import com.curymorais.gittopreposbycury.data.remote.model.GitApiResponse
+import br.com.curymorais.tembicibycury.data.GitRepository
+import br.com.curymorais.tembicibycury.data.remote.model.GitApiResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

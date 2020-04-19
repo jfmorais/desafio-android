@@ -1,4 +1,4 @@
-package com.curymorais.gittopreposbycury.util
+package br.com.curymorais.tembicibycury.util
 
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager

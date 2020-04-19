@@ -1,4 +1,4 @@
-package com.curymorais.gittopreposbycury.data
+package br.com.curymorais.tembicibycury.data
 
 import androidx.room.RoomDatabase
 

@@ -1,9 +1,9 @@
-package com.curymorais.gittopreposbycury.data
+package br.com.curymorais.tembicibycury.data
 
 import android.util.Log
-import com.curymorais.gittopreposbycury.util.RetrofitInitializer
-import com.curymorais.gittopreposbycury.data.remote.api.GithubService
-import com.curymorais.gittopreposbycury.data.remote.model.GitApiResponse
+import br.com.curymorais.tembicibycury.data.remote.api.GithubService
+import br.com.curymorais.tembicibycury.data.remote.model.GitApiResponse
+import br.com.curymorais.tembicibycury.util.RetrofitInitializer
 
 class GitRepository{
 

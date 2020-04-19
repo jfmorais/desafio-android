@@ -1,6 +1,6 @@
-package com.curymorais.gittopreposbycury.util
+package br.com.curymorais.tembicibycury.util
 
-import com.curymorais.gittopreposbycury.data.remote.api.GithubService
+import br.com.curymorais.tembicibycury.data.remote.api.GithubService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

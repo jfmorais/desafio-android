@@ -1,24 +1,20 @@
-package com.curymorais.gittopreposbycury.data.remote.api
+package br.com.curymorais.tembicibycury.data.remote.api
 
-import com.curymorais.gittopreposbycury.data.remote.model.GitApiResponse
-import retrofit2.Call
+import br.com.curymorais.tembicibycury.data.remote.model.GitApiResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface GithubService {
 
     @GET("search/repositories")
-    suspend fun getRepos(@Query("language") language: String?,
-        @Query("sort") sort: String?,
-        @Query("order") order: String?
-    ): GitApiResponse
+    suspend fun getRepos(@Query("language") language: String?, @Query("sort") sort: String?, @Query("order") order: String?): GitApiResponse
 
     @GET("search/repositories")
     suspend fun getReposKot(@Query("sort") sort: String?): GitApiResponse
 
 
-    @GET("search/repositories?q=language:kotlin&sort=stars")
+    @GET("search/repositories?q=language:Java&sort=stars")
     suspend fun getReposByPage(@Query ("page") page: Long): GitApiResponse
 
-
+// https://api.github.com/search/repositories?q=language:Java&sort=stars&page=1
 }

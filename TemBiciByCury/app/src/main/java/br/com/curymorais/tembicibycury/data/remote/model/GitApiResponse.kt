@@ -1,13 +1,6 @@
-package com.curymorais.gittopreposbycury.data.remote.model
+package br.com.curymorais.tembicibycury.data.remote.model
 
-import com.curymorais.gittopreposbycury.data.local.GitRepo
-import com.google.gson.annotations.SerializedName
-
-//data class GitApiResponse (
-//    @SerializedName("total_count")
-//    var totalCount: Long,
-//    var items: ArrayList<GitRepo>
-//)
+import br.com.curymorais.tembicibycury.data.local.GitRepo
 
 data class GitApiResponse (
     var total_count: Long,
