@@ -13,20 +13,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_layout_constraint)
-        initComponents()
-        setComponentListeners()
         supportFragmentManager.beginTransaction().replace(
             R.id.fragment_container,
             TopGitReposFragment()
         ).commit()
-    }
-
-    fun initComponents() {
-
-    }
-
-    fun setComponentListeners() {
-
     }
 
 }
