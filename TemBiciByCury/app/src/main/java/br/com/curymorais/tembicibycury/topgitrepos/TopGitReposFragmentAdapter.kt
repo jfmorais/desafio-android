@@ -10,6 +10,7 @@ import com.squareup.picasso.Picasso
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.list_item_repo.*
 
+
 class TopGitReposFragmentAdapter : RecyclerView.Adapter<TopGitReposFragmentAdapter.ItemHolder>() {
 
     private var itemList : ArrayList<GitRepo> = ArrayList()

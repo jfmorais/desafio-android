@@ -19,8 +19,6 @@ class MainActivity : AppCompatActivity() {
             R.id.fragment_container,
             TopGitReposFragment()
         ).commit()
-
-
     }
 
     fun initComponents() {

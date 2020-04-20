@@ -1,6 +1,7 @@
 package br.com.curymorais.tembicibycury.topgitrepos
 
 import android.annotation.SuppressLint
+import android.graphics.drawable.ClipDrawable.HORIZONTAL
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,12 +9,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.curymorais.tembicibycury.R
 import br.com.curymorais.tembicibycury.util.OnLoadMoreListener
 import br.com.curymorais.tembicibycury.util.RecyclerViewLoadMoreScroll
 import kotlinx.android.synthetic.main.fragment_top_git_repos.*
-import kotlinx.android.synthetic.main.list_top_git_repos.*
 
 class TopGitReposFragment : Fragment(){
 
@@ -44,6 +45,8 @@ class TopGitReposFragment : Fragment(){
 
         recycler_item_list.adapter = adapter
         recycler_item_list.layoutManager = llm
+
+        recycler_item_list.addItemDecoration(DividerItemDecoration(context, HORIZONTAL))
 
         scrollListener = RecyclerViewLoadMoreScroll(llm)
         scrollListener.setOnLoadMoreListener(object :
