@@ -1,6 +1,7 @@
 package br.com.curymorais.tembicibycury.data
 
 import android.util.Log
+import br.com.curymorais.tembicibycury.data.local.GitPulls
 import br.com.curymorais.tembicibycury.data.remote.api.GithubService
 import br.com.curymorais.tembicibycury.data.remote.model.GitApiResponse
 import br.com.curymorais.tembicibycury.data.remote.model.GitPullResponse
@@ -20,16 +21,16 @@ class GitRepository{
         return repos
     }
 
-    suspend fun getReposPulls(user: String, repo: String) : GitPullResponse? {
+    suspend fun getReposPulls(user: String, repo: String) : List<GitPulls> {
 
-        try {
+//        try {
 //            var repos = gitRepos.getPullsFromRepo2()
             var repos =  gitRepos.getPullsFromRepo(user, repo)
-            Log.i("Cury", repos.items.toString())
+            Log.i("Cury", repos.toString())
             return repos
-        }catch (e : Exception) {
-            Log.i("CURY", e.toString())
-        }
-        return null
+//        }catch (e : Exception) {
+//            Log.i("CURY", e.toString())
+//        }
+
     }
 }

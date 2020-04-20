@@ -20,9 +20,9 @@ interface GithubService {
     suspend fun getReposByPage(@Query ("page") page: Long): GitApiResponse
 
     @GET("repos/{user_id}/{repo_id}/pulls")
-    suspend fun getPullsFromRepo(@Path("user_id") userId : String, @Path("repo_id") repoId : String): GitPullResponse
+    suspend fun getPullsFromRepo(@Path("user_id") userId : String, @Path("repo_id") repoId : String): List<GitPulls>
 
     @GET("https://api.github.com/repos/octocat/Hello-World/pulls")
-    suspend fun getPullsFromRepo2(): GitPullResponse
+    suspend fun getPullsFromRepo2(): List<GitPulls>
 
 }

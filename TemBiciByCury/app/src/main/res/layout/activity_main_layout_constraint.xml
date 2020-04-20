@@ -8,7 +8,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
+        android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:layout_constraintTop_toTopOf="parent">
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 app:layout_anchor="@id/app_bar"
                 android:layout_gravity="center_vertical"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/text_total"
@@ -46,7 +46,7 @@
                     android:textSize="40dp"
                     android:fontFamily="sans-serif-thin"
                     android:layout_marginRight="10dp"
-                    android:text="GITHUB" />
+                    android:text="GITHUB " />
 
                 <TextView
                     android:id="@+id/text_total_value"

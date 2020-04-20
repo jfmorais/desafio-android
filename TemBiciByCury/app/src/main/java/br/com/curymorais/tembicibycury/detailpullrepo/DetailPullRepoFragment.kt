@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.curymorais.tembicibycury.R
+import br.com.curymorais.tembicibycury.data.local.GitPulls
 import kotlinx.android.synthetic.main.fragment_detail_pull_repo.*
 import kotlinx.android.synthetic.main.fragment_top_git_repos.*
 
@@ -60,7 +61,7 @@ class DetailPullRepoFragment : Fragment() {
     private fun startViewModel() {
         viewModel.firstPage.observe(viewLifecycleOwner, Observer { itens ->
             itens?.let {
-                adapter.updateList(it.items)
+                adapter.updateList(it as ArrayList<GitPulls>)
             }
         })
     }
