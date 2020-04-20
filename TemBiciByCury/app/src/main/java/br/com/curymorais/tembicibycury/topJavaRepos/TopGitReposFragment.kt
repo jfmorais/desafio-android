@@ -1,4 +1,4 @@
-package br.com.curymorais.tembicibycury.topgitrepos
+package br.com.curymorais.tembicibycury.topJavaRepos
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.ClipDrawable.HORIZONTAL

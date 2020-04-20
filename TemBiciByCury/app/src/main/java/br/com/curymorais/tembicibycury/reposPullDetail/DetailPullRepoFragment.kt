@@ -1,4 +1,4 @@
-package br.com.curymorais.tembicibycury.detailpullrepo
+package br.com.curymorais.tembicibycury.reposPullDetail
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.ClipDrawable.HORIZONTAL
@@ -8,14 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import br.com.curymorais.tembicibycury.R
 import br.com.curymorais.tembicibycury.data.local.GitPulls
 import kotlinx.android.synthetic.main.fragment_detail_pull_repo.*
-import kotlinx.android.synthetic.main.fragment_top_git_repos.*
 
 class DetailPullRepoFragment : Fragment() {
 

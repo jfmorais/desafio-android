@@ -1,4 +1,4 @@
-package br.com.curymorais.tembicibycury.detailpullrepo
+package br.com.curymorais.tembicibycury.reposPullDetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

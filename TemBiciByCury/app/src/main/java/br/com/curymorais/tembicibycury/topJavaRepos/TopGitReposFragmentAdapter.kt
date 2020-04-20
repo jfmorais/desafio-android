@@ -1,4 +1,4 @@
-package br.com.curymorais.tembicibycury.topgitrepos
+package br.com.curymorais.tembicibycury.topJavaRepos
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import br.com.curymorais.tembicibycury.R
 import br.com.curymorais.tembicibycury.data.local.GitRepo
-import br.com.curymorais.tembicibycury.detailpullrepo.DetailPullRepoFragment
+import br.com.curymorais.tembicibycury.reposPullDetail.DetailPullRepoFragment
 import com.squareup.picasso.Picasso
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.list_item_repo.*

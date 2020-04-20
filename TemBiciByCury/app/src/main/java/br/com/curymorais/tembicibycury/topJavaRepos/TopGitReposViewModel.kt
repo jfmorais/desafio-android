@@ -1,4 +1,4 @@
-package br.com.curymorais.tembicibycury.topgitrepos
+package br.com.curymorais.tembicibycury.topJavaRepos
 
 import androidx.lifecycle.*
 import br.com.curymorais.tembicibycury.data.GitRepository

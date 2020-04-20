@@ -5,5 +5,5 @@ data class GitPulls (
     var title: String,
     var created_at: String,
     var body: String,
-    var user: GitPullOwner
+    var user: GitRepoOwner
 )

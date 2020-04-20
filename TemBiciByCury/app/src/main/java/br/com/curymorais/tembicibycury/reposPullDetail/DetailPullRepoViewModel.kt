@@ -1,11 +1,8 @@
-package br.com.curymorais.tembicibycury.detailpullrepo
+package br.com.curymorais.tembicibycury.reposPullDetail
 
 import androidx.lifecycle.*
 import br.com.curymorais.tembicibycury.data.GitRepository
-import br.com.curymorais.tembicibycury.data.remote.model.GitApiResponse
-import br.com.curymorais.tembicibycury.data.remote.model.GitPullResponse
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
 class DetailPullRepoViewModel(u: String, r: String) : ViewModel(){
 

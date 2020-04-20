@@ -1,4 +1,4 @@
-package br.com.curymorais.tembicibycury.detailpullrepo
+package br.com.curymorais.tembicibycury.reposPullDetail
 
 import android.view.LayoutInflater
 import android.view.View

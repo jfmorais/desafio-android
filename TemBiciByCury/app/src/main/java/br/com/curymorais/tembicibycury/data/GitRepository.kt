@@ -4,9 +4,7 @@ import android.util.Log
 import br.com.curymorais.tembicibycury.data.local.GitPulls
 import br.com.curymorais.tembicibycury.data.remote.api.GithubService
 import br.com.curymorais.tembicibycury.data.remote.model.GitApiResponse
-import br.com.curymorais.tembicibycury.data.remote.model.GitPullResponse
 import br.com.curymorais.tembicibycury.util.RetrofitInitializer
-import java.lang.Exception
 
 class GitRepository{
 

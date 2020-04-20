@@ -2,7 +2,7 @@ package br.com.curymorais.tembicibycury
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import br.com.curymorais.tembicibycury.topgitrepos.TopGitReposFragment
+import br.com.curymorais.tembicibycury.topJavaRepos.TopGitReposFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
